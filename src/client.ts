@@ -178,7 +178,7 @@ export class WaifuClient {
      * @param image_id The ID of the image to report.
      * @param description A brief explanation (up to 200 characters) used to describe the issue.
      */
-    public reportImage(image_id: number, description: string): Promise<ImageReport> {
+    public async reportImage(image_id: number, description: string): Promise<ImageReport> {
         if (!this.token) {
             throw new Error('A token must be provided to use this endpoint.');
         }
