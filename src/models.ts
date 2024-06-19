@@ -61,12 +61,7 @@ export interface Tag {
  * Represents a reported image's information.
  */
 export interface ImageReport {
-    /**
-     * Note that this is a 64-bit integer and may overflow in JavaScript.
-     * This is a limitation of the API.
-     */
-    authorId: number;
-
+    authorId: string;
     description: string;
     existed: boolean;
     imageId: number;
