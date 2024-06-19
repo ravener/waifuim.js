@@ -1,0 +1,5 @@
+.editorconfig
+tsconfig.json
+.prettierrc
+.gitignore
+src/
