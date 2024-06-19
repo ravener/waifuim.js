@@ -28,3 +28,5 @@ const images = await client.search({
 
 console.log(images);
 ```
+
+Browse the complete API documentation [here](https://ravener.github.io/waifuim.js/)
