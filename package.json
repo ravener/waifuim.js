@@ -5,7 +5,8 @@
   "main": "./dist/index.js",
   "type": "module",
   "scripts": {
-    "test": "eslint ."
+    "test": "eslint .",
+    "docs": "typedoc src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "homepage": "https://github.com/ravener/waifuim.js#readme",
   "devDependencies": {
+    "typedoc": "^0.25.13",
     "typescript": "^5.4.5"
   },
   "dependencies": {
